@@ -56,7 +56,7 @@ def load_model_and_scaler():
 # Load dataset for statistics
 @st.cache_data
 def load_dataset():
-    df = pd.read_csv(r"C:\Users\jfern\credit\credit (3) (1).csv")
+    df = pd.read_csv('credit (3) (1).csv')
     return df
 
 # Load model results
